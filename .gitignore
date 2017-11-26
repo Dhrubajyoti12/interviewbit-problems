@@ -1,1 +1,9 @@
-*a.out
+# Executables
+*.out
+
+# Cpp files written for test purposes.
+*dene.cpp
+*dummy.cpp
+
+# Input file written for test puroses.
+*.in
