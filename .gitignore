@@ -7,9 +7,3 @@
 
 # Input file written for test puroses.
 *.in
-
-# pyscript files
-pyscript/conf.py
-pyscript/dene.py
-pyscript/test_out.html
-pyscript/topics_out.html
