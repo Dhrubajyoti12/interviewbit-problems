@@ -1,14 +1,3 @@
-void printSol(const vector< vector<e*> > &sol){
-	const int I = sol.size(); 	const int J = sol[0].size();
-	for(int i=0 ; i<I ; ++i){
-		for(int j=0 ; j<J ; ++j){
-			sol[i][j]->print();
-			cout << " ";
-		}
-		cout << endl << endl;
-	}
-}
-
 int Solution::calculateMinimumHP(vector<vector<int> > &A) {
 	// init dimensions
 	const int I = A.size(); 	const int J = A[0].size();
