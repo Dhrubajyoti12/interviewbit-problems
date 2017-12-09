@@ -6,5 +6,5 @@ int Solution::maxProfit(const vector<int> &A) {
 		big = max(big, A[i]);
 		res = max(res, big-A[i]);
 	}
-	return big - sml;
+	return res;
 }
