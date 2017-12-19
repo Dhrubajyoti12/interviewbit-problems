@@ -26,7 +26,8 @@ void initMark(){
 			MARK[i][j] = NOT_VISITED;
 	}
 }
-
+int I[8] = {-2, -1, -2, -1, +2, +1, +2, +1};
+int J[8] = {-1, -2, +1, +2, +1, +2, -1, -2};
 // add Solution::
 int knight(int n, int m, int is, int js, int ie, int je) {
 	N = n, M = m; // init the global variables.
@@ -38,45 +39,11 @@ int knight(int n, int m, int is, int js, int ie, int je) {
 	while(Q.size()){
 		e fro = Q.front(); 	Q.pop(); // <<<--- notice
 		int i = fro.i, j = fro.j;
-		
-		// up & left block
-		if(legit(i-2, j-1)) {
-			MARK[i-2][j-1] = MARK[i][j]+1;
-			Q.push(e{i-2,j-1});
-		}
-		if(legit(i-1, j-2)) {
-			MARK[i-1][j-2] = MARK[i][j]+1;
-			Q.push(e{i-1, j-2});
-		}
-
-		// up & right block
-		if(legit(i-2, j+1)) {
-			MARK[i-2][j+1] = MARK[i][j]+1;
-			Q.push(e{i-2,j+1});
-		}
-		if(legit(i-1, j+2)) {
-			MARK[i-1][j+2] = MARK[i][j]+1;
-			Q.push(e{i-1, j+2});
-		}
-
-		// down & right block
-		if(legit(i+2, j+1)) {
-			MARK[i+2][j+1] = MARK[i][j]+1;
-			Q.push(e{i+2,j+1});
-		}
-		if(legit(i+1, j+2)) {
-			MARK[i+1][j+2] = MARK[i][j]+1;
-			Q.push(e{i+1, j+2});
-		}
-
-		// down & left block
-		if(legit(i+2, j-1)) {
-			MARK[i+2][j-1] = MARK[i][j]+1;
-			Q.push(e{i+2,j-1});
-		}
-		if(legit(i+1, j-2)) {
-			MARK[i+1][j-2] = MARK[i][j]+1;
-			Q.push(e{i+1, j-2});
+		for(int m=0 ; m<8 ; ++m){
+			if(legit(i+I[m], j+J[m])){
+				Q.push(e{i+I[m], j+J[m]});
+				MARK[i+I[m]][j+J[m]] = MARK[i][j] + 1;
+			}
 		}
 	}
 
