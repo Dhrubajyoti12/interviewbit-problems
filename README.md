@@ -12,20 +12,23 @@ bles are cool.
 
 | Topic Name| # of Problems| 
 |  :--------: |  :--------: | 
-| [Arrays](https://github.com/norubai/interviewbit-problems/tree/master/Arrays)| 21| 
-| [Backtracking](https://github.com/norubai/interviewbit-problems/tree/master/Backtracking)| 8| 
+| [Arrays](https://github.com/norubai/interviewbit-problems/tree/master/Arrays)| 22| 
+| [Backtracking](https://github.com/norubai/interviewbit-problems/tree/master/Backtracking)| 12| 
 | [Binary Search](https://github.com/norubai/interviewbit-problems/tree/master/Binary%20Search)| 6| 
 | [Bit Manipulation](https://github.com/norubai/interviewbit-problems/tree/master/Bit%20Manipulation)| 7| 
-| [Dynamic Programming](https://github.com/norubai/interviewbit-problems/tree/master/Dynamic%20Programming)| 2| 
+| [Dynamic Programming](https://github.com/norubai/interviewbit-problems/tree/master/Dynamic%20Programming)| 18| 
+| [Graphs](https://github.com/norubai/interviewbit-problems/tree/master/Graphs)| 7| 
 | [Greedy](https://github.com/norubai/interviewbit-problems/tree/master/Greedy)| 6| 
 | [Hashing](https://github.com/norubai/interviewbit-problems/tree/master/Hashing)| 5| 
 | [Heaps And Maps](https://github.com/norubai/interviewbit-problems/tree/master/Heaps%20And%20Maps)| 4| 
-| [Linked Lists](https://github.com/norubai/interviewbit-problems/tree/master/Linked%20Lists)| 12| 
+| [Linked Lists](https://github.com/norubai/interviewbit-problems/tree/master/Linked%20Lists)| 13| 
 | [Math](https://github.com/norubai/interviewbit-problems/tree/master/Math)| 16| 
 | [Stacks And Queues](https://github.com/norubai/interviewbit-problems/tree/master/Stacks%20And%20Queues)| 5| 
-| [Strings](https://github.com/norubai/interviewbit-problems/tree/master/Strings)| 18| 
+| [Strings](https://github.com/norubai/interviewbit-problems/tree/master/Strings)| 21| 
 | [Trees](https://github.com/norubai/interviewbit-problems/tree/master/Trees)| 22| 
-| [Two Pointers](https://github.com/norubai/interviewbit-problems/tree/master/Two%20Pointers)| 12| 
+| [Two Pointers](https://github.com/norubai/interviewbit-problems/tree/master/Two%20Pointers)| 13| 
+
+
 
 ### What I'll be doing with this repository
 
